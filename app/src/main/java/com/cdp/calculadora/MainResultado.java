@@ -19,6 +19,7 @@ public class MainResultado extends AppCompatActivity {
 
         txtresultado = (EditText) findViewById(R.id.txtresultado);
         btnvolver = (Button) findViewById(R.id.btnvolver);
+        // Utilizamos bundle para enviar objetos  entre actividades.
         Bundle bundle=getIntent().getExtras();
         txtresultado.setText(bundle.getString("Resultado"));
     }

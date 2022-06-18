@@ -18,6 +18,8 @@ public class MainActivity3 extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
         txError = (TextView) findViewById(R.id.txError);
         btnvolver2 = (Button) findViewById(R.id.btnvolver2);
+
+        // Utilizamos bundle para enviar objetos  entre actividades.
         Bundle bundle = getIntent().getExtras();
         txError.setText(bundle.getString("Error"));
     }

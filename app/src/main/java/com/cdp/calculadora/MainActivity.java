@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // Metodo de Error
+    // Metodo de Error para validar que haya datos en los inputs
     private void error(String error)
     {
         Intent resultado = new Intent(getApplicationContext(), MainActivity3.class);
