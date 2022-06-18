@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
     // Operacion Resta
     public void Resta(View view)
     {
